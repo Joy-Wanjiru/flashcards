@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    $("li#javaScript").click(function(){
-        $("p").prepend("<p>javascripts definition</p>");
+    $("p#javaScript").click(function(){
+        $(".definition").toggle();
+        // $("p").prepend("<p>javascripts definition</p>");
     });
+
 })
