@@ -1,7 +1,15 @@
 $(document).ready(function(){
     $("p#javaScript").click(function(){
-        $(".definition").toggle();
-        // $("p").prepend("<p>javascripts definition</p>");
+        $("#def").toggle();
+    });
+    $("p#operators").click(function(){
+        $("#defi").toggle();
+    });
+    $("p#variables").click(function(){
+        $("#defin").toggle();
+    });
+    $("p#functions").click(function(){
+        $("#defini").toggle();
     });
 
 })
